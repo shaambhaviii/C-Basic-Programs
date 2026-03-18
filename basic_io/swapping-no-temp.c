@@ -1,3 +1,5 @@
+// Program name : Swapping values of two varialble w/o third variable
+// Part of shamv's C program
 #include<stdio.h>
 int main(){
     int a,b,c;
