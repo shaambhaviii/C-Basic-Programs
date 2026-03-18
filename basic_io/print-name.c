@@ -1,3 +1,6 @@
+//Program Name : Print name
+// Part of shamv's C program
+
 #include<stdio.h>
 int main(){
     char str[100];
