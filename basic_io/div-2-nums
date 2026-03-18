@@ -2,10 +2,12 @@
 //Part of shmav's C programs
 #include<stdio.h>
 int main(){
-    int a,b,div;
+    int a,b,div,mod;
     printf("enter two no.(with space between them): ");
     scanf("%d %d",&a,&b);
     div = a / b;
-    printf("Division of %d and %d is %d",a,b,div);
+    mod = a % b;
+    printf("Quotient of %d divided by %d is %d",a,b,div);
+    printf("\nRemainde when %d is divided by %d is %d", a,b,mod);
     return 0;
 }
